@@ -1,0 +1,17 @@
+{
+  "name": "@hanzogui/monorepo-test",
+  "version": "2.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Nate Wienert"
+  },
+  "type": "module",
+  "module": "dist/esm",
+  "scripts": {},
+  "devDependencies": {
+    "vitest": "4.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

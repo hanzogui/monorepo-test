@@ -1,0 +1,25 @@
+$ vitest --run --config ../../packages/vite-plugin-internal/src/vite.config.ts
+
+[1m[46m RUN [49m[22m [36mv4.0.4 [39m[90m/Users/z/work/hanzo/gui/code/core/monorepo-test[39m
+
+[90mstdout[2m | monorepo.test.tsx
+[22m[39mbaseline [33m11[39m
+
+$ ./scripts/typecheck.sh --extendedDiagnostics
+error: script "typecheck" exited with code 1
+[90mstdout[2m | monorepo.test.tsx[2m > [22m[2mperformance of types
+[22m[39m
+
+Total time: 0ms
+🐇 It is 0 slower than the baseline
+
+
+
+ [32m✓[39m monorepo.test.tsx [2m([22m[2m1 test[22m[2m)[22m[33m 20507[2mms[22m[39m
+   [33m[2m✓[22m[39m performance of types [33m 20506[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m   Start at [22m 21:52:36
+[2m   Duration [22m 21.03s[2m (transform 65ms, setup 126ms, collect 56ms, tests 20.51s, environment 178ms, prepare 6ms)[22m
+
